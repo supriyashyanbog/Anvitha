@@ -1,0 +1,40 @@
+<h1>Listing users</h1>
+
+<p class="submit_buttons enroll_buttons">
+  <%= link_to 'New user', new_user_path %>
+</p>
+
+<table>
+  <tr>
+    <th>Full name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Birthday</th>
+    <th>Status</th>
+  </tr>
+
+  <% @users.each do |user| %>
+    <tr>
+      <td><%=h user.first_name + " " + user.last_name %></td>      
+      <td><%=h user.email %></td>
+      <td><%=h user.mobile_phone %></td>
+      <td><%=h user.date_of_birth.strftime("%d-%m-%Y") %></td>
+      <td><%=h user.active ?  'Active' : 'Pending' %></td>
+
+      <% if current_user.super_user? %>
+        <td id="aprove_button">
+          <% if  user.active %>
+            <%= link_to 'show', user_path(user) ,:class => "active_link_buttons" %>
+          <% else %>
+            <%= link_to 'Pending', approve_user_path(user) ,:class => "pending_link_buttons"  %>
+          <% end %>        
+        </td>
+        <td>
+          <%= link_to 'Not Fit', user, :confirm => 'Are you sure?', :method => :delete ,:class => "pending_link_buttons" %>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
+
+<br />

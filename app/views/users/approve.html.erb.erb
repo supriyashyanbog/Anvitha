@@ -1,0 +1,13 @@
+<% form_for :user, :url => activate_user_path(@user) do |f| %>
+  <%= render :partial => 'display_user' %>
+  <p>
+    <strong>Select Role </strong>
+    <%= f.select :user_role_id, options_for_select(get_the_user_roles, :selected => @user.user_role_id) %><br/>
+    <span class="instruction_note"> Note: Please be sure while assigning role for the user.</span> 
+  </p>
+
+  <div class="submit_buttons">    
+    <%= f.submit 'Approve' %>
+    <%= link_to 'Return', users_path %>
+  </div>
+<% end %>

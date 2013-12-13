@@ -1,0 +1,27 @@
+<div id="loginForm">
+
+<% form_for @user_session, :url => user_session_path do |f| %>
+  
+  <%#= f.error_messages %>
+  <p>
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </p>
+  
+ <p>
+    <%= f.label :password %><br/>
+    <%= f.password_field :password %>    
+  </p>
+  
+  <p>
+  </p>
+  <%= flash_error flash[:error], "error" %>
+  <div id ="admin_submit">   
+    <%= f.submit "Login" %>
+    
+  </div>
+<% end %>
+  <p id="forgot_password">
+      <%= link_to 'Forgot Password', new_reset_password_path() %>    
+  </p>
+</div>

@@ -1,0 +1,29 @@
+<p>
+  <b>First name:</b>
+  <%=h @user.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%=h @user.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @user.email %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%=h @user.username %>
+</p>
+
+<p>
+  <b>Mobile phone:</b>
+  <%=h @user.mobile_phone %>
+</p>
+
+<p>
+  <b>Date of birth:</b>
+  <%=h @user.date_of_birth.strftime("%d-%m-%Y") %>
+</p>

@@ -1,0 +1,28 @@
+<h1>Listing transactions</h1>
+
+<table>
+  <tr>
+    <th>Type of transaction</th>
+    <th>Grand total</th>
+    <th>Belongs to</th>
+    <th>Date of transaction</th>
+    <th>Transaction description</th>
+  </tr>
+
+<% @transactions.each do |transaction| %>
+  <tr>
+    <td><%=h transaction.type_of_transaction %></td>
+    <td><%=h transaction.grand_total %></td>
+    <td><%=h transaction.belongs_to %></td>
+    <td><%=h transaction.date_of_transaction %></td>
+    <td><%=h transaction.transaction_description %></td>
+    <td><%= link_to 'Show', transaction %></td>
+    <td><%= link_to 'Edit', edit_transaction_path(transaction) %></td>
+    <td><%= link_to 'Destroy', transaction, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New transaction', new_transaction_path %>

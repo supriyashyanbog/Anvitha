@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  type_of_transaction: MyString
+  grand_total: 1.5
+  belongs_to: 
+  date_of_transaction: 2013-08-13 15:51:21
+  transaction_description: MyText
+
+two:
+  type_of_transaction: MyString
+  grand_total: 1.5
+  belongs_to: 
+  date_of_transaction: 2013-08-13 15:51:21
+  transaction_description: MyText

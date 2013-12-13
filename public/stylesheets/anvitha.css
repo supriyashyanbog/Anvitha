@@ -1,0 +1,186 @@
+body {
+    margin: auto;
+    width: 1000px;
+    padding: 0;
+    background: #FFFFFF url(/images/img01.jpg) repeat-x;
+    font: 13px Georgia, "Times New Roman", Times, serif;
+    color: #666666;
+}
+body.admin_login{
+    background: none;
+}
+#header {
+    height: 88px;
+    margin: -5px auto auto;
+    text-align: center;
+    width: 400px;
+}
+
+#header a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#menu {
+    background: url("/images/img02.jpg") no-repeat scroll 0 0 transparent;
+    height: 65px;
+    margin: auto;
+    width: 400px;
+}
+
+#page {
+    background: url("/images/img05.gif") repeat scroll 0 0 transparent;
+    margin: 0 auto;
+    width: autopx;
+}
+
+#menu a {
+    color: #333333;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 7px 0 0;
+}
+
+.container{
+    /* background: url("/images/img05.gif") repeat scroll 0 0 transparent;*/
+    border: 6px solid #D5FAFA;
+    border-radius: 6px 6px 6px 6px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 800px;
+}
+div.admin_container{
+    width: 350px;
+}
+
+p, ol, ul {
+    line-height: 150%;
+}
+
+.errorExplanation{ 
+    background: url("/images/bg_error.png") repeat-x scroll 0 0 #FFECEC;
+    border-color: #FF9B9B;
+    width: 485px;
+}
+
+.errorExplanation li{
+    color: #8C2222;
+}
+
+#errorExplanation h2 {
+    color: #8C2222;
+    padding-left: 35px;
+}
+
+.fieldWithErrors input, .fieldWithErrors textarea {
+    background-color: #FFEFEF ;
+    border-color: #8C2222;
+}
+.fieldWithErrors input , .fieldWithErrors label{
+    color: #8C2222 ;
+}
+.enroll_buttons{ 
+    float:right;margin-top:-60px;
+}
+
+p.enroll_buttons a{
+    background: #A7C942;
+    font-weight: bold;
+}
+#errorExplanation p{display: none;}
+
+#admin_submit {
+    margin: auto;
+    width: 130px;
+}
+.active_link_buttons{ 
+    display: block; 
+    background: green; 
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pending_link_buttons{ 
+    display: block; 
+    background: maroon; 
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+th
+{
+    background-color: #A7C942;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    text-align: left;
+    border: 1px solid white;
+    text-align: center;
+}
+
+td{
+    background-color: #EAF2D3;
+    border: 1px solid white;
+    color: #000000;
+    text-align: center;
+}
+
+#aprove_button{
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    padding-left: 10px;
+}
+.instruction_note{
+    font-style: italic;
+    color: red;
+    font-size: 12px;        
+}
+.submit_buttons{
+    width: 180px;
+    padding-bottom : 50px;
+}
+.submit_buttons input, .submit_buttons a{
+    display: block; 
+    background: green; 
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    width: 85px
+}
+.submit_buttons input{float:left; padding: 8.5px; width: 80px;}
+.submit_buttons a{float:right; padding: 9px; width: 65px;margin-top: 2px; margin-right: 2px;}
+#flasherrorExplanation h2{font-size: 14px; color: maroon}
+.signout{float:right; background-color: #A7C942;padding:6px}
+#forgot_password a { color: skyblue;
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: -30px;}

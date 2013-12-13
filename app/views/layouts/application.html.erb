@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      <%= 'Anvitha' %>
+    </title>
+    <%= stylesheet_link_tag 'anvitha', :media => 'screen' %>
+  </head>
+  <body>
+    <div id="header">
+      <h1>
+        <a href="#">Anvitha</a>
+        <%= link_to 'Sign Out', user_session_path(), :method => :delete  ,:class => "active_link_buttons signout" %>   
+      </h1>        
+      <span class="marque"> <marquee> Many hearts  </marquee></span>
+    </div>
+    <div id="menu">
+      <ul>
+        <li class="current_page_item"><a href="<%= users_path %>"> User Management</a></li>
+        <li><a href="<%=  '#' %>"> Reports</a></li>
+        <li><a href="<%= '#' %>"> Account </a></li>
+
+      </ul>
+    </div>
+    </div>
+    <div class="container">      
+        <%= yield %>
+    </div>
+  </body>
+</html>

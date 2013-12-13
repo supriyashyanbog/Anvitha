@@ -1,0 +1,28 @@
+<p>
+  <b>Type of transaction:</b>
+  <%=h @transaction.type_of_transaction %>
+</p>
+
+<p>
+  <b>Grand total:</b>
+  <%=h @transaction.grand_total %>
+</p>
+
+<p>
+  <b>Belongs to:</b>
+  <%=h @transaction.belongs_to %>
+</p>
+
+<p>
+  <b>Date of transaction:</b>
+  <%=h @transaction.date_of_transaction %>
+</p>
+
+<p>
+  <b>Transaction description:</b>
+  <%=h @transaction.transaction_description %>
+</p>
+
+
+<%= link_to 'Edit', edit_transaction_path(@transaction) %> |
+<%= link_to 'Back', transactions_path %>

@@ -1,0 +1,278 @@
+GEM
+  remote: https://rubygems.org/
+  remote: http://gems.github.com/
+  specs:
+    aasm (3.0.16)
+    actionmailer (2.3.17)
+      actionpack (= 2.3.17)
+    actionpack (2.3.17)
+      activesupport (= 2.3.17)
+      rack (~> 1.1.0)
+    activemessaging (0.12.1)
+      activemessaging
+      activesupport (>= 2.3.11)
+    activerecord (2.3.17)
+      activesupport (= 2.3.17)
+    activeresource (2.3.17)
+      activesupport (= 2.3.17)
+    activesupport (2.3.17)
+    acts-as-taggable-on (2.1.0)
+      rails
+    addressable (2.3.2)
+    after_commit (1.0.11)
+      activerecord (>= 1.15.6, < 3.0.0)
+    airbrake (3.1.8)
+      activesupport
+      builder
+      json
+    ambethia-smtp-tls (1.1.2)
+    authlogic (2.1.9)
+      activerecord (~> 2.3.0)
+      activesupport (~> 2.3.0)
+    aws-s3 (0.6.3)
+      builder
+      mime-types
+      xml-simple
+    bkoski-rails_env (0.8.0)
+    builder (3.1.4)
+    capybara (2.0.2)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (~> 2.0)
+      xpath (~> 1.0.0)
+    childprocess (0.3.8)
+      ffi (~> 1.0, >= 1.0.11)
+    chronic (0.9.0)
+    cocaine (0.4.2)
+    columnize (0.3.6)
+    comma (2.1.2)
+      fastercsv (~> 1.5.4)
+    configatron (2.10.0)
+      yamler (>= 0.1.0)
+    crack (0.1.8)
+    csspool (3.0.2)
+    curb (0.8.3)
+    daemon-spawn (0.2.0)
+    database_cleaner (0.9.1)
+    email_spec (0.6.6)
+      rspec
+    factory_girl (2.6.4)
+      activesupport (>= 2.3.9)
+    faker (1.1.2)
+      i18n (~> 0.5)
+    fastercsv (1.5.5)
+    ffi (1.4.0)
+    garb (0.3.1)
+      happymapper (~> 0.3.0)
+    geokit (1.6.5)
+      multi_json
+    going_postal (0.1.2)
+    google-spreadsheet-ruby (0.1.1)
+      hpricot (>= 0.3)
+      oauth (>= 0.3.6)
+    gyoku (1.0.0)
+      builder (>= 2.1.2)
+    happymapper (0.3.0)
+      libxml-ruby (= 1.1.3)
+    has_scope (0.5.1)
+    hashie (0.4.0)
+    hoptoad_notifier (2.4.11)
+      activesupport
+      builder
+    hpricot (0.8.6)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    httpi (2.0.2)
+      rack
+    i18n (0.6.1)
+    inherited_resources (1.0.6)
+      has_scope (~> 0.5.0)
+      responders (~> 0.4.6)
+    jasmine (1.3.1)
+      jasmine-core (~> 1.3.1)
+      rack (~> 1.0)
+      rspec (>= 1.3.1)
+      selenium-webdriver (>= 0.1.3)
+    jasmine-core (1.3.1)
+    json (1.1.9)
+    kelp (0.2.3)
+      capybara (>= 0.4.0)
+    launchy (2.2.0)
+      addressable (~> 2.3)
+    less (1.2.21)
+      mutter (>= 0.4.2)
+      treetop (>= 1.4.2)
+    libwebsocket (0.1.7.1)
+      addressable
+      websocket
+    libxml-ruby (1.1.3)
+    linecache (0.46)
+      rbx-require-relative (> 0.0.4)
+    macaddr (1.6.1)
+      systemu (~> 2.5.0)
+    metaclass (0.0.1)
+    mime-types (1.21)
+    mocha (0.13.2)
+      metaclass (~> 0.0.1)
+    multi_json (0.0.5)
+    mutter (0.5.3)
+    mysql (2.9.1)
+    net-dns (0.7.1)
+    net-scp (1.1.0)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.5)
+    nokogiri (1.5.6)
+    nori (2.0.3)
+    oauth (0.4.7)
+    paperclip (2.8.0)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
+    polyglot (0.3.3)
+    populator (1.0.0)
+    rack (1.1.6)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (2.3.17)
+      actionmailer (= 2.3.17)
+      actionpack (= 2.3.17)
+      activerecord (= 2.3.17)
+      activeresource (= 2.3.17)
+      activesupport (= 2.3.17)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    rbx-require-relative (0.0.9)
+    rcov (1.0.0)
+    rdoc (2.4.3)
+    reliable-msg (1.1.0)
+      uuid (>= 1.0.0)
+    responders (0.4.8)
+    rmagick (2.12.2)
+    roo (1.9.3)
+    rqrcode (0.4.2)
+    rspec (1.3.2)
+    rspec-rails (1.3.4)
+      rack (>= 1.0.0)
+      rspec (~> 1.3.1)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
+    ruby-ole (1.2.11.6)
+    rubyzip (0.9.9)
+    savon (0.9.2)
+      builder (>= 2.1.2)
+      gyoku (>= 0.4.0)
+      httpi (>= 0.7.8)
+      nokogiri (>= 1.4.0)
+      nori (>= 0.2.0)
+    selenium-webdriver (2.21.1)
+      childprocess (>= 0.2.5)
+      ffi (~> 1.0)
+      libwebsocket (~> 0.1.3)
+      multi_json (< 1.3)
+      rubyzip
+    semanticart-is_paranoid (0.9.6)
+    shoulda (3.0.1)
+      shoulda-context (~> 1.0.0)
+      shoulda-matchers (~> 1.0.0)
+    shoulda-context (1.0.2)
+    shoulda-matchers (1.0.0)
+    spreadsheet (0.6.4.1)
+      ruby-ole
+    stomp (1.2.8)
+    systemu (2.5.2)
+    timecop (0.5.9.2)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    twitter (0.9.12)
+      hashie (~> 0.4.0)
+      httparty (~> 0.6.1)
+      multi_json (~> 0.0.4)
+      oauth (~> 0.4.3)
+    uuid (2.3.6)
+      macaddr (~> 1.0)
+    uuidtools (2.1.3)
+    websocket (1.0.7)
+    whenever (0.8.4)
+      activesupport (>= 2.3.4)
+      chronic (>= 0.6.3)
+    will_paginate (2.3.15)
+    xml-simple (1.1.2)
+    xpath (1.0.0)
+      nokogiri (~> 1.3)
+    yamler (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aasm
+  activemessaging
+  acts-as-taggable-on (= 2.1.0)
+  after_commit
+  airbrake
+  ambethia-smtp-tls (= 1.1.2)
+  authlogic
+  aws-s3
+  bkoski-rails_env
+  capybara (>= 0.4.0)
+  chronic
+  comma (~> 2.0)
+  configatron
+  csspool
+  curb
+  daemon-spawn (= 0.2.0)
+  database_cleaner (>= 0.5.0)
+  email_spec (~> 0.6.0)
+  factory_girl
+  faker
+  fastercsv
+  garb (= 0.3.1)
+  geokit
+  going_postal
+  google-spreadsheet-ruby (= 0.1.1)
+  happymapper (= 0.3.0)
+  hoptoad_notifier
+  hpricot
+  httparty
+  inherited_resources (= 1.0.6)
+  jasmine
+  json (= 1.1.9)
+  kelp
+  launchy
+  less (= 1.2.21)
+  mocha
+  mysql
+  net-dns (>= 0.6.1)
+  net-scp
+  nokogiri
+  paperclip
+  populator
+  rails (~> 2.3.16)
+  rake (= 0.8.7)
+  rcov
+  rdoc (~> 2.4.2)
+  reliable-msg
+  rmagick (~> 2.12.0)
+  roo (= 1.9.3)
+  rqrcode
+  rspec (~> 1.3.0)
+  rspec-rails (~> 1.3.2)
+  ruby-debug
+  rubyzip
+  savon (= 0.9.2)
+  semanticart-is_paranoid (>= 0.9.6)
+  shoulda
+  spreadsheet (= 0.6.4.1)
+  stomp
+  timecop
+  twitter (= 0.9.12)
+  uuidtools
+  whenever
+  will_paginate (= 2.3.15)
